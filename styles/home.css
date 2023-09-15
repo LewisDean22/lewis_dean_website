@@ -36,6 +36,7 @@ p {
 
 .site-title:hover {
   opacity: 0.8;
+  cursor: pointer;
 }
 
 .site-title:active {
