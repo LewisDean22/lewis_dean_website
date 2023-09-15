@@ -21,27 +21,21 @@ p {
   margin-bottom: 0;
 }
 
+a {
+  color: #000b4f;
+}
+
 .site-title{
   color: rgb(20, 20, 20);
   font-weight: bold;
   font-size: 24px;
-  width: 300px;
+  padding-right: 5px;
   line-height: 24px;
   text-align: left;
   margin-left: 40px;
   margin-top: 20px;
   margin-bottom: 20px;
   transition: opacity 0.1s;
-}
-
-.site-title:hover {
-  opacity: 0.8;
-  cursor: pointer;
-}
-
-.site-title:active {
-  opacity: 0.5;
-  cursor: pointer;
 }
 
 .subheading{
@@ -55,6 +49,42 @@ p {
   margin-top: 20px;
 }
 
+.home-button {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 0;
+  border: none;
+  background: none;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.home-button:hover {
+  opacity: 0.8;
+}
+
+.home-button:active {
+  opacity: 0.5;
+}
+
+.contact-button {
+  font-weight: bold;
+  font-size: 15px;
+  padding: 5px;
+  border: none;
+  background: none;
+  cursor: pointer;
+  vertical-align: top;
+}
+
+.contact-button:hover {
+  opacity: 0.8;
+}
+
+.contact-button:active {
+  opacity: 0.5;
+}
+
 .contact-details{
   color: rgb(20, 20, 20);
   font-size: 16px;
@@ -63,4 +93,8 @@ p {
   text-align: left;
   margin-left: 40px;
   margin-bottom: 20px;
+}
+
+.blue-font{
+  color:#000b4f;
 }
