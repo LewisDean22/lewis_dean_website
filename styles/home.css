@@ -41,6 +41,7 @@ p {
 
 .site-title:active {
   opacity: 0.5;
+  cursor: pointer;
 }
 
 .subheading{
