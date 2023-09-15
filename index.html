@@ -24,7 +24,7 @@
 <body>
   <div class="title-div">
     <button class="home-button">
-      <a href="index.html">
+      <a href="/">
         <img class="home-icon" src="images/home_icon.svg" alt="Home">
       </a> 
     </button>
@@ -35,13 +35,38 @@
     </button>
   </div>
 
+  <img class="profile-picture" src="images/lewis_dean_photo.jpg"
+  alt="Profile Picture">
+
   <p class="site-title">
     About me
   </p>
 
-  <img class="profile-picture" src="images/lewis_dean_photo.jpg"
-  alt="Profile Picture">
+  <button class="accordion">Interests</button>
+  <div class="panel">
+    <p>To be determined...</p>
+  </div>
 
+  <button class="accordion">Education</button>
+  <div class="panel">
+    <p>To be determined...</p>
+  </div>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
 </body>
-
 </html>
